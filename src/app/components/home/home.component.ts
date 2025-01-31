@@ -5,10 +5,11 @@ import { Iproduct } from '../../core/interfaces/iproduct';
 import { RouterLink } from '@angular/router';
 import { CardComponent } from "../card/card.component";
 import { CommonModule } from '@angular/common';
+import { SearchComponent } from "../search/search.component";
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, CardComponent, CommonModule],
+  imports: [ CardComponent, CommonModule, SearchComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
