@@ -45,22 +45,6 @@ Before running the project, make sure you have the following installed:
 
 The project fetches product data from: [Fake Store API](https://fakestoreapi.com/products)
 
-## Folder Structure
-
-```
-project-directory/
-│── src/
-│   ├── app/
-│   │   ├── components/
-│   │   ├── services/
-│   │   ├── pages/
-│   ├── assets/
-│   ├── environments/
-│── angular.json
-│── package.json
-│── README.md
-```
-
 ## Future Enhancements
 
 - Add a shopping cart feature
